@@ -6,6 +6,8 @@ Download the wished make file, e.g. `yokai-standard-drush-8.x.make`, with `wget 
 
 Verify .make files with `drush verify-makefile`
 
+How patches get handled. It uses [Dave Reid's](https://bitbucket.org/davereid) [Drush Patch File](https://bitbucket.org/davereid/drush-patchfile).
+
 Drupal 8 Standard
 -----------------
 ```
