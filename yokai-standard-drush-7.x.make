@@ -105,11 +105,10 @@ projects[ds][subdir] = contrib
 
 
 ; SEO
-projects[seo_checklist][subdir] = contrib
-projects[checklistapi][subdir] = contrib
 projects[site_map][subdir] = contrib
 projects[site_verify][subdir] = contrib
 projects[page_title][subdir] = contrib
+projects[metatag][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
 projects[google_analytics][subdir] = contrib
 
@@ -132,6 +131,10 @@ libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_standard.tar.gz
 libraries[ckeditor][destination] = libraries
 
+; Date
+projects[publication_date][subdir] = contrib
+projects[scheduler][subdir] = contrib
+
 
 ; Social Media
 projects[oauth][subdir] = contrib
@@ -141,3 +144,9 @@ projects[twitter][subdir] = contrib
 ; Views
 projects[views][subdir] = contrib
 projects[better_exposed_filters][subdir] = contrib
+
+
+; Going Live
+projects[seo_checklist][subdir] = contrib
+projects[checklistapi][subdir] = contrib
+
