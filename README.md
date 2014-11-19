@@ -6,7 +6,8 @@ Download the wished make file, e.g. `yokai-standard-drush-8.x.make`, with `wget 
 
 Verify `.make` files with `drush verify-makefile`
 
-How patches get handled. It uses [Dave Reid's](https://bitbucket.org/davereid) Project [Drush Patch File](https://bitbucket.org/davereid/drush-patchfile). To apply the patches download the [Drush Patch File] (https://bitbucket.org/davereid/drush-patchfile/src/e7ffe4ccbb4c7c768788d0c24e6a18835eb35f74/patchfile.drush.inc) to your drush directory `~/.drush` e.g. with `wget URL_TO_PATCHFILE`. When now using the make file, the patches will always get applied. 
+How patches get handled. It uses [Dave Reid's](https://bitbucket.org/davereid) Project [Drush Patch File](https://bitbucket.org/davereid/drush-patchfile). To apply the patches download or git clone the repository into your `~/.drush` directory, or wherever your local Drush commands are stored. See the installation [here](https://bitbucket.org/davereid/drush-patchfile/overview#markdown-header-installation).
+
 
 Drupal 8 Standard
 -----------------
