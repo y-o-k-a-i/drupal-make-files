@@ -40,20 +40,21 @@ projects[devel][subdir] = contrib
 projects[devel_themer][subdir] = contrib
 projects[coder][subdir] = contrib
 projects[stage_file_proxy][subdir] = contrib
+projects[browsersync][subdir] = contrib
 
 
-; ########################################
-; #########  Site Configuration  #########
-; ########################################
+; ###############################
+; #########  Base Site  #########
+; ###############################
 
-; Features
+; General
+projects[token][subdir] = contrib
+projects[ctools][subdir] = contrib
+
+; Configuration
 projects[features][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[variable][subdir] = contrib
-
-; REST
-;projects[services][subdir] = contrib
-;projects[restws][subdir] = contrib
 
 
 ; Libraries
@@ -67,6 +68,8 @@ libraries[backbone][download][type] = "get"
 libraries[backbone][download][url] = "https://github.com/documentcloud/backbone/archive/1.1.2.zip"
 
 ; Modernizr
+projects[modernizr][subdir] = contrib
+
 libraries[modernizr][directory_name] = "modernizr"
 libraries[modernizr][type] = "library"
 libraries[modernizr][destination] = "libraries"
@@ -85,19 +88,33 @@ libraries[underscore][download][url] = "https://github.com/documentcloud/undersc
 ; #########  Site Building  #########
 ; ###################################
 
-; General
-projects[token][subdir] = contrib
-projects[ctools][subdir] = contrib
-
 ; URLs
 projects[pathauto][subdir] = contrib
 ;projects[subpathauto][subdir] = contrib
+projects[globalredirect][subdir] = contrib
+projects[rabbit_hole][subdir] = contrib
+
 
 ; Menus
 
+projects[menu_position][subdir] = contrib
+projects[menu_block][subdir] = contrib
+projects[menu_attributes][subdir] = contrib
+projects[content_menu][subdir] = contrib
 
 ; Entities
 projects[entity][subdir] = contrib
+projects[entitycache][subdir] = contrib
+projects[entityreference][subdir] = contrib
+projects[inline_entity_form][subdir] = contrib
+
+;projects[cer][subdir] = contrib ;Corresponding Entity References
+;projects[entityconnect][subdir] = contrib
+;projects[entityreference_filter][subdir] = contrib
+;projects[entityreference_view_widget][subdir] = contrib
+;projects[entityreference_prepopulate][subdir] = contrib
+;projects[entity_path][subdir] = contrib
+
 
 ; Fields
 projects[entityreference][subdir] = contrib
@@ -109,10 +126,19 @@ projects[email][subdir] = contrib
 projects[link][subdir] = contrib
 projects[field_collection][subdir] = contrib
 projects[video_embed_field][subdir] = contrib
+projects[double_field][subdir] = contrib
+
+projects[chosen][subdir] = contrib
+projects[filefield_sources][subdir] = contrib
+projects[field_collection][subdir] = contrib
+projects[field_group][subdir] = contrib
+
+; Blocks
+projects[blockify][subdir] = contrib
 
 ; Display Suite
 projects[ds][subdir] = contrib
-projects[field_group][subdir] = contrib
+
 
 ; Panels
 ; add your favorite panels tools, cause' I am a DS guy I do not list panel modules
@@ -120,9 +146,24 @@ projects[field_group][subdir] = contrib
 ; Views
 projects[views][subdir] = contrib
 projects[better_exposed_filters][subdir] = contrib
+projects[views_bulk_operations][subdir] = contrib
+projects[viewfield][subdir] = contrib
+projects[autocache][subdir] = contrib
+projects[admin_views][subdir] = contrib
+
+; Forms
+projects[webform][subdir] = contrib
+projects[webform_hints][subdir] = contrib
+projects[webform_default_fields][subdir] = contrib
+
+; Taxonomy
+projects[taxonomy_display][subdir] = contrib
 
 ; Media
 projects[scald][subdir] = contrib
+projects[imageapi][subdir] = contrib
+projects[imageapi_optimize][subdir] = contrib
+
 
 ; User 
 projects[login_destination][subdir] = contrib
@@ -149,6 +190,9 @@ projects[scheduler][subdir] = contrib
 ; Paragraphs
 projects[paragraphs][subdir] = contrib
 
+; Formats
+projects[better_formats][subdir] = contrib
+
 ; Editor
 projects[ckeditor][subdir] = contrib
 libraries[ckeditor][download][type] = get
@@ -160,16 +204,27 @@ projects[quickedit][subdir] = contrib
 projects[quickedit_tab][subdir] = contrib
 
 ; Media
-projects[image_focus][subdir] = contrib
+
+
+; Referencing
+projects[linkit][subdir] = contrib
 ;projects[insert][subdir] = contrib
 
 
-; ####################################
-; #########  Administration  #########
-; ####################################
+; ############################################
+; #########  Content Administration  #########
+; ############################################
+
+projects[view_unpublished][subdir] = contrib
+
+
+; ############################################
+; #########  Backend Administration  #########
+; ############################################
 
 ; Menu
 projects[navbar][subdir] = contrib
+projects[masquerade][subdir] = contrib
 
 ; Modules
 projects[module_filter][subdir] = contrib
@@ -180,41 +235,43 @@ projects[module_filter][subdir] = contrib
 ; ######################################
 
 projects[] = aurora
-projects[borealis][subdir] = contrib
+projects[] = adminimal_theme
 
+projects[borealis][subdir] = contrib
 projects[jquery_update][subdir] = contrib
 projects[magic][subdir] = contrib
 projects[fences][subdir] = contrib
+projects[html5_tools][subdir] = contrib
+projects[typogrify][subdir] = contrib
+
 projects[field_formatter_settings][subdir] = contrib
-projects[menu_attributes][subdir] = contrib
+projects[ffc][subdir] = contrib ; Field formatter conditions
+projects[image_link_formatter][subdir] = contrib
+
 projects[styleguide][subdir] = contrib
-
-projects[modernizr][subdir] = contrib
-libraries[modernizr][download][type] = file
-libraries[modernizr][download][url] = http://modernizr.com/downloads/modernizr-latest.js
-libraries[modernizr][download][filename] = modernizr.min.js
-libraries[modernizr][destination] = libraries
-
 
 
 ; #############################
 ; #########  UX - UI  #########
 ; #############################
-projects[fastclick][subdir] = contrib
 
+projects[fastclick][subdir] = contrib
 
 
 ; ###################################
 ; #########  Optimizations  #########
 ; ###################################
+
+projects[speedy][subdir] = contrib
+
 projects[seo_checklist][subdir] = contrib
 projects[checklistapi][subdir] = contrib
-
 
 
 ; #########################
 ; #########  SEO  #########
 ; #########################
+
 projects[metatag][subdir] = contrib
 projects[site_map][subdir] = contrib
 projects[site_verify][subdir] = contrib
@@ -237,9 +294,60 @@ projects[advanced_help][subdir] = contrib
 
 
 
+
+
+
+
+
+
+
 ; #############################
 ; ########## OPTIONS ##########
 ; #############################
+
+; Random
+
+
+; Lightbox
+
+;projects[colorbox][subdir] = contrib
+;libraries[colorbox][download][type] = "get"
+;libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/latest"
+;libraries[colorbox][directory_name] = "colorbox"
+
+; RSP Images (Borealis includes acutally RSP Image solution, prefer picture module)
+
+;projects[picture][subdir] = contrib
+;projects[breakpoints][subdir] = contrib
+
+
+; Image Focus
+
+;projects[image_focus][subdir] = contrib
+;projects[imagefield_focus][subdir] = contrib
+
+
+; Slider
+
+;projects[flexslider][subdir] = contrib
+
+
+; Multilangugae
+
+;projects[i18n][subdir] = contrib
+;projects[i18nviews][subdir] = contrib
+;projects[l10n_update][subdir] = contrib
+;projects[transliteration][subdir] = contrib
+
+
+; REST
+;projects[services][subdir] = contrib
+;projects[restws][subdir] = contrib
+
+
+; Feeds
+;projects[feeds][subdir] = contrib
+;projects[feeds_tamper][subdir] = contrib
 
 
 ; Email
