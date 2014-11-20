@@ -12,12 +12,12 @@ How patches get handled. It uses [Dave Reid's](https://bitbucket.org/davereid) P
 Drupal 8 Standard
 -----------------
 ```
-$ wget https://github.com/y-o-k-a-i/drupal-make-files/master/yokai-standard-drush-8.x.make
-$ drush make yokai-standard-drush-8.x.make -y
+$ wget https://github.com/y-o-k-a-i/drupal-make-files/master/8.x/yokai-standard.make
+$ drush make yokai-standard.make -y
 ```
 Drupal 7 Standard
 -----------------
 ```
-$ wget https://github.com/y-o-k-a-i/drupal-make-files/master/yokai-standard-drush-7.x.make
-$ drush make yokai-standard-drush-7.x.make -y
+$ wget https://github.com/y-o-k-a-i/drupal-make-files/master/7.x/yokai-standard.make
+$ drush make yokai-standard.make -y
 ```
