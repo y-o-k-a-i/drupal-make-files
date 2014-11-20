@@ -29,14 +29,159 @@ projects[drupal][version] = 7
 ; corresponding library is added as well.
 
 
-; Administration
+
+; #################################
+; #########  Development  #########
+; #################################
+
+projects[simplehtmldom][subdir] = contrib
+; They can be in the repo, but do not deploy them, exclude them during deployment
+projects[devel][subdir] = contrib
+projects[devel_themer][subdir] = contrib
+projects[coder][subdir] = contrib
+projects[stage_file_proxy][subdir] = contrib
+
+
+; ########################################
+; #########  Site Configuration  #########
+; ########################################
+
+; Features
+projects[features][subdir] = contrib
+projects[strongarm][subdir] = contrib
+projects[variable][subdir] = contrib
+
+; REST
+;projects[services][subdir] = contrib
+;projects[restws][subdir] = contrib
+
+
+; Libraries
+projects[libraries][subdir] = contrib
+
+; Backbone
+libraries[backbone][directory_name] = "backbone"
+libraries[backbone][type] = "library"
+libraries[backbone][destination] = "libraries"
+libraries[backbone][download][type] = "get"
+libraries[backbone][download][url] = "https://github.com/documentcloud/backbone/archive/1.1.2.zip"
+
+; Modernizr
+libraries[modernizr][directory_name] = "modernizr"
+libraries[modernizr][type] = "library"
+libraries[modernizr][destination] = "libraries"
+libraries[modernizr][download][type] = "get"
+libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.7.2.zip"
+
+; Underscore
+libraries[underscore][directory_name] = "underscore"
+libraries[underscore][type] = "library"
+libraries[underscore][destination] = "libraries"
+libraries[underscore][download][type] = "get"
+libraries[underscore][download][url] = "https://github.com/documentcloud/underscore/archive/1.7.0.zip"
+
+
+; ###################################
+; #########  Site Building  #########
+; ###################################
+
+; General
+projects[token][subdir] = contrib
+projects[ctools][subdir] = contrib
+
+; URLs
+projects[pathauto][subdir] = contrib
+;projects[subpathauto][subdir] = contrib
+
+; Menus
+
+
+; Entities
+projects[entity][subdir] = contrib
+
+; Fields
+projects[entityreference][subdir] = contrib
+projects[diff][subdir] = contrib
+projects[addressfield][subdir] = contrib
+projects[countries][subdir] = contrib
+projects[date][subdir] = contrib
+projects[email][subdir] = contrib
+projects[link][subdir] = contrib
+projects[field_collection][subdir] = contrib
+projects[video_embed_field][subdir] = contrib
+
+; Display Suite
+projects[ds][subdir] = contrib
+projects[field_group][subdir] = contrib
+
+; Panels
+; add your favorite panels tools, cause' I am a DS guy I do not list panel modules
+
+; Views
+projects[views][subdir] = contrib
+projects[better_exposed_filters][subdir] = contrib
+
+; Media
+projects[scald][subdir] = contrib
+
+; User 
+projects[login_destination][subdir] = contrib
+;projects[email_registration][subdir] = contrib
+;projects[realname][subdir] = contrib
+
+
+; ###########################################
+; #########  Content Configuration  #########
+; ###########################################
+
+; Caching
+projects[entitycache][subdir] = contrib
+
+; Publication
+projects[publication_date][subdir] = contrib
+projects[scheduler][subdir] = contrib
+
+
+; ######################################
+; #########  Content Creation  #########
+; ######################################
+
+; Paragraphs
+projects[paragraphs][subdir] = contrib
+
+; Editor
+projects[ckeditor][subdir] = contrib
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip ; Quick Edit-optimized build of CKEditor:
+libraries[ckeditor][destination] = libraries
+
+; Inline Editing
+projects[quickedit][subdir] = contrib
+projects[quickedit_tab][subdir] = contrib
+
+; Media
+projects[image_focus][subdir] = contrib
+;projects[insert][subdir] = contrib
+
+
+; ####################################
+; #########  Administration  #########
+; ####################################
+
+; Menu
 projects[navbar][subdir] = contrib
+
+; Modules
 projects[module_filter][subdir] = contrib
 
 
-; Design / Theming
+; ######################################
+; #########  Design / Theming  #########
+; ######################################
+
 projects[] = aurora
 projects[borealis][subdir] = contrib
+
 projects[jquery_update][subdir] = contrib
 projects[magic][subdir] = contrib
 projects[fences][subdir] = contrib
@@ -51,11 +196,50 @@ libraries[modernizr][download][filename] = modernizr.min.js
 libraries[modernizr][destination] = libraries
 
 
-; Development
-projects[devel][subdir] = contrib
-projects[devel_themer][subdir] = contrib
-projects[simplehtmldom][subdir] = contrib
-projects[coder][subdir] = contrib
+
+; #############################
+; #########  UX - UI  #########
+; #############################
+projects[fastclick][subdir] = contrib
+
+
+
+; ###################################
+; #########  Optimizations  #########
+; ###################################
+projects[seo_checklist][subdir] = contrib
+projects[checklistapi][subdir] = contrib
+
+
+
+; #########################
+; #########  SEO  #########
+; #########################
+projects[metatag][subdir] = contrib
+projects[site_map][subdir] = contrib
+projects[site_verify][subdir] = contrib
+projects[page_title][subdir] = contrib
+projects[xmlsitemap][subdir] = contrib
+projects[google_analytics][subdir] = contrib
+
+
+; ###########################
+; #########  Tools  #########
+; ###########################
+
+; Help
+projects[advanced_help][subdir] = contrib
+
+
+
+
+
+
+
+
+; #############################
+; ########## OPTIONS ##########
+; #############################
 
 
 ; Email
@@ -65,88 +249,4 @@ projects[coder][subdir] = contrib
 ;libraries[phpmailer][download][type] = get
 ;libraries[phpmailer][download][url] = http://phpmailer.apache-extras.org.codespot.com/files/PHPMailer_5.2.4.tgz
 ;libraries[phpmailer][destination] = libraries
-
-
-; Features
-projects[features][subdir] = contrib
-projects[ctools][subdir] = contrib
-projects[strongarm][subdir] = contrib
-projects[variable][subdir] = contrib
-
-
-; Fields
-projects[insert][subdir] = contrib
-projects[entityreference][subdir] = contrib
-projects[diff][subdir] = contrib
-projects[addressfield][subdir] = contrib
-projects[countries][subdir] = contrib
-projects[date][subdir] = contrib
-projects[email][subdir] = contrib
-projects[link][subdir] = contrib
-projects[field_collection][subdir] = contrib
-projects[video_embed_field][subdir] = contrib
-
-
-; Other
-projects[entity][subdir] = contrib
-projects[libraries][subdir] = contrib
-
-projects[sshkey][subdir] = contrib
-projects[advanced_help][subdir] = contrib
-
-
-; Panels
-;projects[panels][subdir] = contrib
-;projects[panelizer][subdir] = contrib
-
-
-; Display Suite
-projects[ds][subdir] = contrib
-
-
-; SEO
-projects[site_map][subdir] = contrib
-projects[site_verify][subdir] = contrib
-projects[page_title][subdir] = contrib
-projects[metatag][subdir] = contrib
-projects[xmlsitemap][subdir] = contrib
-projects[google_analytics][subdir] = contrib
-
-
-;User 
-projects[login_destination][subdir] = contrib
-projects[email_registration][subdir] = contrib
-projects[realname][subdir] = contrib
-
-
-; Site Building
-projects[pathauto][subdir] = contrib
-projects[subpathauto][subdir] = contrib
-;projects[nodequeue][subdir] = contrib
-projects[token][subdir] = contrib
-projects[image_focus][subdir] = contrib
-projects[ckeditor][subdir] = contrib
-
-libraries[ckeditor][download][type] = get
-libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_standard.tar.gz
-libraries[ckeditor][destination] = libraries
-
-; Date
-projects[publication_date][subdir] = contrib
-projects[scheduler][subdir] = contrib
-
-
-; Social Media
-projects[oauth][subdir] = contrib
-projects[twitter][subdir] = contrib
-
-
-; Views
-projects[views][subdir] = contrib
-projects[better_exposed_filters][subdir] = contrib
-
-
-; Going Live
-projects[seo_checklist][subdir] = contrib
-projects[checklistapi][subdir] = contrib
 
