@@ -19,7 +19,7 @@ core = 7.x
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
 
-projects[drupal][version] = 7
+projects[drupal][version] = 7.x
 
 
 ; Modules / Themes
@@ -206,7 +206,8 @@ projects[better_formats][subdir] = contrib
 
 projects[ckeditor][subdir] = contrib
 libraries[ckeditor][download][type] = get
-libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip ; Quick Edit-optimized build of CKEditor:
+; Quick Edit-optimized build of CKEditor
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip
 libraries[ckeditor][destination] = libraries
 
 
