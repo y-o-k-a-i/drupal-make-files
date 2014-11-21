@@ -1,6 +1,6 @@
-; #################################
-; #########  Development  #########
-; #################################
+; -----------------------------------
+; Development
+; -----------------------------------
 
 ; They can be in the repo, but do not deploy them
 ; Uninstall modules before deployment (UMBD), exclude them from deployment
