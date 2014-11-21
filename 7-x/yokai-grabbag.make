@@ -1,3 +1,9 @@
+;--------------------------------------------
+; Grabbag
+;
+; Modules which can be helpful along the way
+;--------------------------------------------
+
 ; REST
 ;projects[services][subdir] = contrib
 ;projects[restws][subdir] = contrib
