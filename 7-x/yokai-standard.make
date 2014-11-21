@@ -1,16 +1,16 @@
-; Core version
-; ------------
-; Each makefile should begin by declaring the core version of Drupal that all
-; projects should be compatible with.
-
-core = 7.x
-
 ; API version
 ; ------------
 ; Every makefile needs to declare its Drush Make API version. This version of
 ; drush make uses API version `2`.
 
 api = 2
+
+; Core version
+; ------------
+; Each makefile should begin by declaring the core version of Drupal that all
+; projects should be compatible with.
+
+core = 7.x
 
 ; Core project
 ; ------------
@@ -29,15 +29,16 @@ projects[drupal][version] = 7
 ; corresponding library is added as well.
 
 
-; ###############################
-; #########  Base Site  #########
-; ###############################
+; -----------------------------------
+; Base Site
+; -----------------------------------
 
 ; General
 
 projects[token][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[simplehtmldom][subdir] = contrib
+
 
 ; Configuration
 
@@ -75,9 +76,9 @@ libraries[underscore][download][url] = "https://github.com/documentcloud/undersc
 
 
 
-; ###################################
-; #########  Site Building  #########
-; ###################################
+; -----------------------------------
+; Site Building
+; -----------------------------------
 
 ; URLs
 
@@ -98,15 +99,7 @@ projects[content_menu][subdir] = contrib
 ; Entities
 
 projects[entity][subdir] = contrib
-projects[entityreference][subdir] = contrib
 projects[inline_entity_form][subdir] = contrib
-
-;projects[cer][subdir] = contrib ;Corresponding Entity References
-;projects[entityconnect][subdir] = contrib
-;projects[entityreference_filter][subdir] = contrib
-;projects[entityreference_view_widget][subdir] = contrib
-;projects[entityreference_prepopulate][subdir] = contrib
-;projects[entity_path][subdir] = contrib
 
 
 ; Fields
@@ -124,6 +117,7 @@ projects[double_field][subdir] = contrib
 
 projects[chosen][subdir] = contrib
 projects[filefield_sources][subdir] = contrib
+
 
 ; Field collections
 
@@ -188,9 +182,9 @@ projects[login_destination][subdir] = contrib
 
 
 
-; ###########################################
-; #########  Content Configuration  #########
-; ###########################################
+; -----------------------------------
+; Content Configuration
+; -----------------------------------
 
 ; Publication
 
@@ -199,9 +193,9 @@ projects[scheduler][subdir] = contrib
 
 
 
-; ######################################
-; #########  Content Creation  #########
-; ######################################
+; -----------------------------------
+; Content Creation
+; -----------------------------------
 
 ; Formats
 
@@ -231,19 +225,26 @@ projects[quickedit_tab][subdir] = contrib
 
 projects[linkit][subdir] = contrib
 ;projects[insert][subdir] = contrib
+;projects[cer][subdir] = contrib ;Corresponding Entity References
+;projects[entityconnect][subdir] = contrib
+;projects[entityreference_filter][subdir] = contrib
+;projects[entityreference_view_widget][subdir] = contrib
+;projects[entityreference_prepopulate][subdir] = contrib
+;projects[entity_path][subdir] = contrib
 
 
-; ############################################
-; #########  Content Administration  #########
-; ############################################
+
+; -----------------------------------
+; Content Administration
+; -----------------------------------
 
 projects[view_unpublished][subdir] = contrib
 
 
 
-; ############################################
-; #########  Backend Administration  #########
-; ############################################
+; -----------------------------------
+; Backend Administration
+; -----------------------------------
 
 ; Menu
 
@@ -257,9 +258,9 @@ projects[module_filter][subdir] = contrib
 
 
 
-; ######################################
-; #########  Design / Theming  #########
-; ######################################
+; -----------------------------------
+; Design / Theming
+; -----------------------------------
 
 ; Themes
 
@@ -286,19 +287,18 @@ projects[image_link_formatter][subdir] = contrib
 projects[styleguide][subdir] = contrib
 
 
-; #############################
-; #########  UX - UI  #########
-; #############################
+
+; -----------------------------------
+; UX - UI
+; -----------------------------------
 
 projects[fastclick][subdir] = contrib
 
 
 
-
-
-; ###########################
-; #########  Tools  #########
-; ###########################
+; -----------------------------------
+; Tools
+; -----------------------------------
 
 ; Help
 projects[advanced_help][subdir] = contrib
