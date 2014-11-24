@@ -230,12 +230,12 @@ libraries[ckeditor][destination] = libraries
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip
 
-
 ; projects[] = caption_filter ; image caption for inline images
+
 
 ; Inline Editing
 
-projects[] = quickedit
+; projects[] = quickedit
 ; @see https://www.drupal.org/node/2337497#comment-9199011
 projects[quickedit][patch][] = "https://www.drupal.org/files/issues/2337497.patch"
 projects[] = quickedit_tab
