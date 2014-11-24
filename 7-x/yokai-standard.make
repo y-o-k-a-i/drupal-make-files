@@ -182,7 +182,7 @@ projects[] = views_responsive_grid
 projects[] = responsive_tables
 
 projects[] = views_load_more
-projects[] = waypoints
+; projects[] = waypoints
 projects[waypoints][version] = "7.x-1.x" ; no Libraries support so far
 
 
@@ -270,7 +270,7 @@ projects[] = view_unpublished
 
 ; Menu
 
-projects[] = navbar
+; projects[] = navbar
 ; @see https://www.drupal.org/node/2167993#comment-9046931
 projects[navbar][patch][] = "https://www.drupal.org/files/issues/navbar-2167993-12.patch"
 projects[] = escape_admin
