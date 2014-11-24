@@ -183,7 +183,7 @@ projects[] = responsive_tables
 
 projects[] = views_load_more
 ; projects[] = waypoints
-projects[waypoints][version] = "7.x-1.x" ; no Libraries support so far
+projects[waypoints][version] = 1.x ; no Libraries support so far
 
 
 ; Forms
