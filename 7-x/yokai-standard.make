@@ -74,6 +74,18 @@ libraries[underscore][destination] = "libraries"
 libraries[underscore][download][type] = "get"
 libraries[underscore][download][url] = "https://github.com/documentcloud/underscore/archive/1.7.0.zip"
 
+; Chosen
+projects[chosen][subdir] = contrib
+
+libraries[chosen][directory_name] = "chosen"
+libraries[chosen][type] = "library"
+libraries[chosen][destination] = "libraries"
+libraries[chosen][download][type] = "get"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
+
+; jQuery Update
+projects[jquery_update][subdir] = contrib
+
 
 
 ; -----------------------------------
@@ -83,9 +95,10 @@ libraries[underscore][download][url] = "https://github.com/documentcloud/undersc
 ; URLs
 
 projects[pathauto][subdir] = contrib
-;projects[subpathauto][subdir] = contrib
 projects[globalredirect][subdir] = contrib
 projects[rabbit_hole][subdir] = contrib
+projects[pathologic][subdir] = contrib
+;projects[subpathauto][subdir] = contrib
 
 
 ; Menus
@@ -93,7 +106,16 @@ projects[rabbit_hole][subdir] = contrib
 projects[menu_position][subdir] = contrib
 projects[menu_block][subdir] = contrib
 projects[menu_attributes][subdir] = contrib
-projects[content_menu][subdir] = contrib
+projects[simplified_menu_admin][subdir] = contrib
+;projects[content_menu][subdir] = contrib ; add dummy menus during site building, not tested in conjunction with simplified_menu_admin module
+
+projects[responsive_navigation][subdir] = contrib
+libraries[responsive_navigation][directory_name] = "responsive_navigation"
+libraries[responsive_navigation][type] = "library"
+libraries[responsive_navigation][destination] = "libraries"
+libraries[responsive_navigation][download][type] = "get"
+libraries[responsive_navigation][download][url] = "https://github.com/viljamis/responsive-nav.js/archive/master.zip"
+
 
 
 ; Entities
@@ -101,35 +123,40 @@ projects[content_menu][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[inline_entity_form][subdir] = contrib
 
+;projects[entity_view_mode][subdir] = contrib ; lightweight version of DS, instead of DS
+
 
 ; Fields
 
 projects[entityreference][subdir] = contrib
-projects[diff][subdir] = contrib
-projects[addressfield][subdir] = contrib
-projects[countries][subdir] = contrib
-projects[date][subdir] = contrib
+projects[date][subdir] = contrib ; use date iso format
 projects[email][subdir] = contrib
+projects[addressfield][subdir] = contrib
+projects[telephone][subdir] = contrib
 projects[link][subdir] = contrib
 projects[field_collection][subdir] = contrib
 projects[video_embed_field][subdir] = contrib
 projects[double_field][subdir] = contrib
-
-projects[chosen][subdir] = contrib
+projects[viewfield][subdir] = contrib
 projects[filefield_sources][subdir] = contrib
+;projects[countries][subdir] = contrib
 
 
-; Field collections
+; Collection of fields
 
-projects[field_collection][subdir] = contrib
-projects[multifield][subdir] = contrib
-projects[paragraphs][subdir] = contrib
 projects[field_group][subdir] = contrib
+projects[paragraphs][subdir] = contrib
 
+; --- Variants ---------------------------------
+; projects[field_collection][subdir] = contrib
+; projects[multifield][subdir] = contrib
+------------------------------------------------
 
 ; Blocks
 
 projects[blockify][subdir] = contrib
+;projects[bean][subdir] = contrib ; block out of fields
+;projects[multiblock][subdir] = contrib ;
 
 
 ; Display Suite
@@ -139,7 +166,7 @@ projects[ds][subdir] = contrib
 
 ; Panels
 
-; add your favorite panels tools, cause' I am a DS guy I do not list panel modules
+; add your favorite panel tools, cause' I am a DS guy I do not list panel modules
 
 
 ; Views
@@ -149,18 +176,22 @@ projects[views][subdir] = contrib
 projects[better_exposed_filters][subdir] = contrib
 projects[admin_views][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
-projects[viewfield][subdir] = contrib
 
-projects[views_infinite_scroll][subdir] = contrib
+projects[views_responsive_grid][subdir] = contrib
+projects[responsive_tables][subdir] = contrib
+
 projects[views_load_more][subdir] = contrib
 projects[waypoints][subdir] = contrib
+projects[waypoints][version] = "7.x-1.x" ; no Libraries support so far
 
 
 ; Forms
 
 projects[webform][subdir] = contrib
-projects[webform_hints][subdir] = contrib
-projects[webform_default_fields][subdir] = contrib
+;projects[webform_hints][subdir] = contrib
+;projects[webform_default_fields][subdir] = contrib
+;projects[webform_optionsmarkup][subdir] = contrib
+
 
 
 ; Taxonomy
@@ -168,28 +199,11 @@ projects[webform_default_fields][subdir] = contrib
 projects[taxonomy_display][subdir] = contrib
 
 
-; Media
-
-projects[imageapi][subdir] = contrib
-projects[imageapi_optimize][subdir] = contrib
-
-
 ; User
 
 projects[login_destination][subdir] = contrib
 ;projects[email_registration][subdir] = contrib
 ;projects[realname][subdir] = contrib
-
-
-
-; -----------------------------------
-; Content Configuration
-; -----------------------------------
-
-; Publication
-
-projects[publication_date][subdir] = contrib
-projects[scheduler][subdir] = contrib
 
 
 
@@ -205,11 +219,15 @@ projects[better_formats][subdir] = contrib
 ; Editor
 
 projects[ckeditor][subdir] = contrib
-libraries[ckeditor][download][type] = get
-; Quick Edit-optimized build of CKEditor
-libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip
+libraries[ckeditor][directory_name] = "responsive_navigation"
+libraries[ckeditor][type] = "library"
 libraries[ckeditor][destination] = libraries
+; Quick Edit-optimized build of CKEditor
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip
 
+
+; projects[caption_filter][subdir] = contrib ; image caption for inline images
 
 ; Inline Editing
 
@@ -225,14 +243,16 @@ projects[quickedit_tab][subdir] = contrib
 ; Referencing
 
 projects[linkit][subdir] = contrib
-;projects[insert][subdir] = contrib
-;projects[cer][subdir] = contrib ;Corresponding Entity References
-;projects[entityconnect][subdir] = contrib
-;projects[entityreference_filter][subdir] = contrib
-;projects[entityreference_view_widget][subdir] = contrib
-;projects[entityreference_prepopulate][subdir] = contrib
-;projects[entity_path][subdir] = contrib
 
+; --- Options -------------------------------------------------------
+; projects[insert][subdir] = contrib
+; projects[cer][subdir] = contrib ;Corresponding Entity References
+; projects[entityconnect][subdir] = contrib
+; projects[entityreference_filter][subdir] = contrib
+; projects[entityreference_view_widget][subdir] = contrib
+; projects[entityreference_prepopulate][subdir] = contrib
+; projects[entity_path][subdir] = contrib
+; -------------------------------------------------------------------
 
 
 ; -----------------------------------
@@ -250,13 +270,13 @@ projects[view_unpublished][subdir] = contrib
 ; Menu
 
 projects[navbar][subdir] = contrib
+projects[escape_admin][subdir] = contrib
 projects[masquerade][subdir] = contrib
 
 
 ; Modules
 
 projects[module_filter][subdir] = contrib
-
 
 
 ; -----------------------------------
@@ -268,24 +288,28 @@ projects[module_filter][subdir] = contrib
 projects[] = aurora
 projects[] = adminimal_theme
 
+projects[styleguide][subdir] = contrib
 
 ; Better Markup
 
 projects[borealis][subdir] = contrib
-projects[jquery_update][subdir] = contrib
 projects[magic][subdir] = contrib
 projects[fences][subdir] = contrib
 projects[html5_tools][subdir] = contrib
+projects[elements][subdir] = contrib
 projects[typogrify][subdir] = contrib
 
 
 ; Formatters
 
 projects[field_formatter_settings][subdir] = contrib
-projects[ffc][subdir] = contrib ; Field formatter conditions
 projects[image_link_formatter][subdir] = contrib
 
-projects[styleguide][subdir] = contrib
+; --- Option ----------------------------------------------------
+; projects[ffc][subdir] = contrib ; Field formatter conditions
+; ---------------------------------------------------------------
+
+
 
 
 

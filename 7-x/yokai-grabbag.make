@@ -5,8 +5,10 @@
 ;--------------------------------------------
 
 ; REST
-;projects[services][subdir] = contrib
+
 ;projects[restws][subdir] = contrib
+;projects[restful][subdir] = contrib ; on github
+;projects[services][subdir] = contrib
 
 
 ; Feeds
@@ -14,10 +16,31 @@
 ;projects[feeds_tamper][subdir] = contrib
 
 
-; Email
-;projects[mailsystem][subdir] = contrib
-;projects[mimemail][subdir] = contrib
-;projects[phpmailer][subdir] = contrib
-;libraries[phpmailer][download][type] = get
-;libraries[phpmailer][download][url] = http://phpmailer.apache-extras.org.codespot.com/files/PHPMailer_5.2.4.tgz
-;libraries[phpmailer][destination] = libraries
+; Rules
+
+;projects[rules][subdir] = contrib
+
+
+; Migration
+;projects[migrate][subdir] = contrib
+;projects[migrate_d2d][subdir] = contrib ; drupal 2 drupal
+
+
+; Document Management
+
+projects[filedepot][subdir] = contrib
+
+
+; Multisite / Multidomain
+; https://amsterdam2014.drupal.org/session/building-multilingual-multidomain-drupal-site
+
+;projects[domain][subdir] = contrib
+;projects[domain_locale][subdir] = contrib
+;projects[domain_views][subdir] = contrib ; https://github.com/AmazeeLabs/domain_views
+;projects[domain_variants][subdir] = contrib ; https://github.com/AmazeeLabs/domain_variants
+;projects[language_fallback][subdir] = contrib
+
+
+; Tours
+
+;projects[joyride][subdir] = contrib
