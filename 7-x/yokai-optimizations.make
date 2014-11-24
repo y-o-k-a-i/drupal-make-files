@@ -13,7 +13,6 @@ projects[render_cache][subdir] = contrib ; gog for authenticated users
 projects[entity_modified][subdir] = contrib
 
 
-
 ; SEO
 
 projects[metatag][subdir] = contrib
@@ -22,8 +21,6 @@ projects[site_verify][subdir] = contrib
 projects[page_title][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
 projects[google_analytics][subdir] = contrib
-
-
 
 
 
