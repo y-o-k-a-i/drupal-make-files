@@ -182,8 +182,8 @@ projects[] = views_responsive_grid
 projects[] = responsive_tables
 
 projects[] = views_load_more
-; projects[] = waypoints
-projects[waypoints][version] = 1.x-dev ; no Libraries support so far
+projects[] = waypoints
+;projects[waypoints][version] = 1.x-dev ; no Libraries support so far
 
 
 ; Forms
@@ -205,6 +205,9 @@ projects[] = taxonomy_display
 projects[] = login_destination
 ;projects[] = email_registration
 ;projects[] = realname
+
+;projects[] = role_delegation
+;projects[] = user_settings_access
 
 
 
@@ -233,6 +236,8 @@ libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor%20for
 ; Inline Editing
 
 projects[] = quickedit
+; @see https://www.drupal.org/node/2337497#comment-9199011
+projects[quickedit][patch][] = "https://www.drupal.org/files/issues/2337497.patch"
 projects[] = quickedit_tab
 
 
@@ -275,6 +280,7 @@ projects[] = view_unpublished
 projects[navbar][patch][] = "https://www.drupal.org/files/issues/navbar-2167993-12.patch"
 projects[] = escape_admin
 projects[] = masquerade
+;projects[] = admin_menu_source
 
 
 ; Modules
