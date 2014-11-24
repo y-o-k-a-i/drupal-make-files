@@ -290,6 +290,7 @@ projects[] = adminimal_theme
 
 projects[styleguide][subdir] = contrib
 
+
 ; Better Markup
 
 projects[borealis][subdir] = contrib
@@ -308,8 +309,6 @@ projects[image_link_formatter][subdir] = contrib
 ; --- Option ----------------------------------------------------
 ; projects[ffc][subdir] = contrib ; Field formatter conditions
 ; ---------------------------------------------------------------
-
-
 
 
 

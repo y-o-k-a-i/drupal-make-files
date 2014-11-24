@@ -12,6 +12,7 @@
 
 
 ; Feeds
+
 ;projects[feeds][subdir] = contrib
 ;projects[feeds_tamper][subdir] = contrib
 
@@ -22,16 +23,18 @@
 
 
 ; Migration
+
 ;projects[migrate][subdir] = contrib
 ;projects[migrate_d2d][subdir] = contrib ; drupal 2 drupal
 
 
 ; Document Management
 
-projects[filedepot][subdir] = contrib
+;projects[filedepot][subdir] = contrib
 
 
 ; Multisite / Multidomain
+
 ; https://amsterdam2014.drupal.org/session/building-multilingual-multidomain-drupal-site
 
 ;projects[domain][subdir] = contrib
