@@ -41,9 +41,10 @@ projects[] = ctools
 projects[] = simplehtmldom
 
 
-; Configuration
+; Configuration Management (CMI)
 
 projects[] = features
+projects[] = features_extra
 projects[] = strongarm
 projects[] = variable
 

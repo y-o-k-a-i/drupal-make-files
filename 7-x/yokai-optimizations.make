@@ -9,7 +9,7 @@ projects[speedy][subdir] = contrib
 projects[autocache][subdir] = contrib
 projects[entitycache][subdir] = contrib
 
-projects[render_cache][subdir] = contrib ; gog for authenticated users
+projects[render_cache][subdir] = contrib ; good for authenticated users
 projects[entity_modified][subdir] = contrib
 
 
@@ -23,24 +23,29 @@ projects[xmlsitemap][subdir] = contrib
 projects[google_analytics][subdir] = contrib
 
 
+; Audit - to Check before deployment
 
-; -----------------------------------
-; Deployment
-; -----------------------------------
-
-; To Check before deployment
+projects[unused_modules][subdir] = contrib
+projects[missing_module][subdir] = contrib ; check if module is present in DB but files got removed
+projects[site_audit][subdir] = contrib
+projects[XHProf][subdir] = contrib
 
 projects[checklistapi][subdir] = contrib
 projects[seo_checklist][subdir] = contrib
 
 
+; Security
+
+projects[security_review][subdir] = contrib
+projects[hacked][subdir] = contrib
+
+
+; -----------------------------------
+; Deployment
+; -----------------------------------
+
+
 ; Disable before going live
 
 ; They can be in the repo, but do not deploy them
-; Uninstall modules before deployment, exclude them from deployment
-
-; projects[devel][subdir] = contrib
-; projects[devel_themer][subdir] = contrib
-; projects[coder][subdir] = contrib
-; projects[stage_file_proxy][subdir] = contrib
-; projects[browsersync][subdir] = contrib
+; Uninstall Development modules before deployment, exclude them from deployment

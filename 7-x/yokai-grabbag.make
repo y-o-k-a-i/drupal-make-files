@@ -17,6 +17,10 @@
 ;projects[feeds_tamper][subdir] = contrib
 
 
+; Flag
+;projects[flag][subdir] = contrib
+
+
 ; Rules
 
 ;projects[rules][subdir] = contrib
@@ -41,6 +45,8 @@
 ;projects[domain_locale][subdir] = contrib
 ;projects[domain_views][subdir] = contrib ; https://github.com/AmazeeLabs/domain_views
 ;projects[domain_variants][subdir] = contrib ; https://github.com/AmazeeLabs/domain_variants
+; Domain Menu Edit Access https://www.drupal.org/sandbox/vasi/2348055
+; Domain Variants Georedirect https://www.drupal.org/sandbox/vasi/2348063
 ;projects[language_fallback][subdir] = contrib
 
 
