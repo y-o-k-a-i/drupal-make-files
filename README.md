@@ -2,7 +2,9 @@ Drupal Make Files
 =================
 This repository contains [YOKAI's](https://github.com/y-o-k-a-i) Drupal (Drush) `make` files. Hopefully at some point replaced by `composer.json` files. But due to the lack of the current support we still go with make files.
 
-Download the wished make file, e.g. `yokai-standard-drush-8.x.make`, with `wget URL_TO_FILENAME` and run `drush make FILENAME`
+Notice: At the moment it is more a repository or collection of modules than some functional `make` files. This should soon change but during the streamlining process of our make files (and install profile) it might be a bit bumpy.
+
+Download the wished make file, e.g. `yokai-standard-drush-8.x.make`, with `wget <file-url>` and run `drush make <filename>`
 
 Verify `.make` files with `drush verify-makefile`. See [Drupal.org](https://www.drupal.org/project/drupalorg_drush)
 
