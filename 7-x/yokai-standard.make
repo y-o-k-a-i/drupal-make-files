@@ -295,8 +295,12 @@ projects[] = module_filter
 
 ; Themes
 
+; Frontend Base Theme
 projects[] = aurora
+
+; Admin Theme
 projects[] = adminimal_theme
+; projects[] = shiny
 
 projects[] = styleguide
 
