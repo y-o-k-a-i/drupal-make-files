@@ -1,6 +1,6 @@
 Drupal Make Files
 =================
-This repository contains [YOKAI's](https://github.com/y-o-k-a-i) Drupal (Drush) `make` files. Hopefully at some point replaced by `composer.json` files. But due to the lack of the current support we still go with make files.
+This repository contains [Yokai's](https://github.com/y-o-k-a-i) Drupal (Drush) `make` files. Hopefully at some point replaced by `composer.json` files. But due to the lack of the current support we still go with make files.
 
 Notice: At the moment it is more a repository or collection of modules than some functional `make` files. This should soon change but during the streamlining process of our make files (and install profile) it might be a bit bumpy.
 
