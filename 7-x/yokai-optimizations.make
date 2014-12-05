@@ -9,8 +9,9 @@ projects[speedy][subdir] = contrib
 projects[autocache][subdir] = contrib
 projects[entitycache][subdir] = contrib
 
-projects[render_cache][subdir] = contrib ; good for authenticated users
-projects[entity_modified][subdir] = contrib
+; caused porblems with views and webform module
+;projects[render_cache][subdir] = contrib ; good for authenticated users
+;projects[entity_modified][subdir] = contrib
 
 
 ; SEO
