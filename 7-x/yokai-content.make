@@ -11,6 +11,8 @@ projects[diff][subdir] = contrib
 projects[workbench_moderation][subdir] = contrib
 projects[workbench][subdir] = contrib
 
+; Revisioning
+projects[node_revision_delete][subdir] = contrib ; clean up revisions
 
 ; Publication
 
