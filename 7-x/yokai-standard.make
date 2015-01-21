@@ -319,7 +319,7 @@ projects[] = typogrify
 
 projects[] = field_formatter_settings
 projects[] = linked_field
-projects[] = image_link_formatter
+;projects[] = image_link_formatter
 
 ; --- Option ----------------------------------------------------
 ; projects[] = ffc ; Field formatter conditions
