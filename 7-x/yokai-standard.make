@@ -141,6 +141,7 @@ projects[] = video_embed_field
 projects[] = double_field
 projects[] = viewfield
 projects[] = filefield_sources
+;projects[] = field_split ; use field brackets in diffrent (ds) regions
 ;projects[] = countries
 
 
