@@ -16,6 +16,7 @@ projects[entitycache][subdir] = contrib
 
 ; SEO
 
+projects[customerror][subdir] = contrib
 projects[metatag][subdir] = contrib
 projects[site_map][subdir] = contrib
 projects[site_verify][subdir] = contrib
