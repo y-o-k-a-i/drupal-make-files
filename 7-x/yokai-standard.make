@@ -97,11 +97,11 @@ projects[] = jquery_update
 ; URLs
 
 projects[] = pathauto
+;projects[] = subpathauto
 projects[] = globalredirect
 projects[] = rabbit_hole
 projects[] = pathologic
-;projects[] = subpathauto
-
+projects[] = customerror
 
 ; Menus
 
