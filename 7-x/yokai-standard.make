@@ -101,7 +101,6 @@ projects[] = pathauto
 projects[] = globalredirect
 projects[] = rabbit_hole
 projects[] = pathologic
-projects[] = customerror
 
 ; Menus
 
