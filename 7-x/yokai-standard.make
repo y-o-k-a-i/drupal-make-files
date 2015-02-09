@@ -38,7 +38,7 @@ defaults[projects][subdir] = "contrib"
 
 projects[] = token
 projects[] = ctools
-projects[] = simplehtmldom
+;projects[] = simplehtmldom
 
 
 ; Configuration Management (CMI)
@@ -98,9 +98,9 @@ projects[] = jquery_update
 
 projects[] = pathauto
 ;projects[] = subpathauto
-projects[] = globalredirect
+;projects[] = globalredirect
 projects[] = rabbit_hole
-projects[] = pathologic
+;projects[] = pathologic
 
 ; Menus
 
@@ -110,12 +110,12 @@ projects[] = menu_attributes
 projects[] = simplified_menu_admin
 ;projects[] = content_menu ; add dummy menus during site building, not tested in conjunction with simplified_menu_admin module
 
-projects[] = responsive_navigation
-libraries[responsive_navigation][directory_name] = "responsive_navigation"
-libraries[responsive_navigation][type] = "library"
-libraries[responsive_navigation][destination] = "libraries"
-libraries[responsive_navigation][download][type] = "get"
-libraries[responsive_navigation][download][url] = "https://github.com/viljamis/responsive-nav.js/archive/master.zip"
+;projects[] = responsive_navigation
+;libraries[responsive_navigation][directory_name] = "responsive_navigation"
+;libraries[responsive_navigation][type] = "library"
+;libraries[responsive_navigation][destination] = "libraries"
+;libraries[responsive_navigation][download][type] = "get"
+;libraries[responsive_navigation][download][url] = "https://github.com/viljamis/responsive-nav.js/archive/master.zip"
 
 
 
@@ -179,20 +179,20 @@ projects[] = better_exposed_filters
 projects[] = admin_views
 projects[] = views_bulk_operations
 
-projects[] = views_responsive_grid
-projects[] = responsive_tables
+;projects[] = views_responsive_grid
+;projects[] = responsive_tables
 
-projects[] = views_load_more
-projects[] = waypoints
+;projects[] = views_load_more
+;projects[] = waypoints
 ;projects[waypoints][version] = 1.x-dev ; no Libraries support so far
 
 
 ; Forms
 
-projects[]  = webform
-;projects[] = webform_hints
+projects[] = webform
+projects[] = webform_hints
 ;projects[] = webform_default_fields
-;projects[] = webform_optionsmarkup
+projects[webform_optionsmarkup] = 2.x-alpha1
 
 
 
@@ -224,7 +224,7 @@ projects[] = better_formats
 ; Editor
 
 projects[] = ckeditor
-libraries[ckeditor][directory_name] = "responsive_navigation"
+libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][destination] = libraries
 ; Quick Edit-optimized build of CKEditor
@@ -302,7 +302,7 @@ projects[] = aurora
 projects[] = adminimal_theme
 ; projects[] = shiny
 
-projects[] = styleguide
+;projects[] = styleguide
 
 
 ; Better Markup
