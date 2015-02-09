@@ -124,7 +124,7 @@ projects[] = views_bulk_operations
 
 projects[] = webform
 projects[] = webform_hints
-projects[webform_optionsmarkup] = 2.x-alpha1
+projects[webform_optionsmarkup] = 2.0-alpha1
 
 
 
@@ -194,7 +194,6 @@ projects[] = view_unpublished
 projects[navbar][patch][] = "https://www.drupal.org/files/issues/navbar-2167993-12.patch"
 projects[] = escape_admin
 projects[] = masquerade
-;projects[] = admin_menu_source
 
 
 ; Modules
@@ -213,10 +212,6 @@ projects[] = aurora
 
 ; Admin Theme
 projects[] = adminimal_theme
-; projects[] = shiny
-
-;projects[] = styleguide
-
 
 ; Better Markup
 
