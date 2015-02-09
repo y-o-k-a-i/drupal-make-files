@@ -78,7 +78,6 @@ projects[] = inline_entity_form
 ; Fields
 
 projects[] = entityreference
-; use date iso format
 projects[] = date
 projects[] = email
 projects[] = addressfield
