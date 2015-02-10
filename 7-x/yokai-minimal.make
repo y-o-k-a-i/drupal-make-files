@@ -45,6 +45,15 @@ libraries[chosen][destination] = "libraries"
 libraries[chosen][download][type] = "get"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
 
+; HTMLpurifier
+projects[] = htmlpurifier
+
+libraries[htmlpurifier][download][type] = "get"
+libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.6.0.tar.gz"
+libraries[htmlpurifier][directory_name] = "htmlpurifier"
+libraries[htmlpurifier][type] = "library"
+
+
 ; jQuery Update
 projects[] = jquery_update
 
@@ -221,7 +230,6 @@ projects[] = fences
 projects[] = html5_tools
 projects[] = elements
 projects[] = typogrify
-projects[] = htmlpurifier
 
 
 ; Formatters
