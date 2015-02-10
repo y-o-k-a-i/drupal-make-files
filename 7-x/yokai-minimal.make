@@ -134,7 +134,8 @@ projects[] = views_bulk_operations
 projects[] = webform
 projects[] = webform_hints
 projects[webform_optionsmarkup] = 2.0-alpha1
-
+; @see https://www.drupal.org/node/1427752
+projects[webform_optionsmarkup][patch][] = "https://www.drupal.org/files/issues/2156321-enable_html_webform_markup.patch"
 
 
 ; Taxonomy
