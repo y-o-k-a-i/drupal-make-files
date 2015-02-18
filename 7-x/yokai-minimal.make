@@ -200,6 +200,7 @@ projects[] = view_unpublished
 projects[navbar][patch][] = "https://www.drupal.org/files/issues/navbar-2167993-12.patch"
 projects[] = escape_admin
 projects[] = masquerade
+projects[] = cacheflush
 
 
 ; Modules
