@@ -180,6 +180,7 @@ projects[] = quickedit_tab
 ; Referencing
 
 projects[] = linkit
+projects[] = entityreference_view_widget
 
 ; -----------------------------------
 ; Content Administration
