@@ -148,6 +148,9 @@ projects[] = login_destination
 ; Content Creation
 ; -----------------------------------
 
+; Automatic titles
+projects[] = auto_entitylabel
+
 ; Formats
 
 projects[] = better_formats
