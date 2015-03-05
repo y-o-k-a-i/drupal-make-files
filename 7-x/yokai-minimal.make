@@ -154,7 +154,7 @@ projects[] = auto_entitylabel
 ; Formats
 
 projects[] = better_formats
-
+projects[] = hide_formats
 
 ; Editor
 
@@ -165,7 +165,6 @@ libraries[ckeditor][destination] = libraries
 ; Quick Edit-optimized build of CKEditor
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip
-
 
 ; Inline Editing
 
