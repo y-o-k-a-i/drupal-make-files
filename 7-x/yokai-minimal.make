@@ -1,4 +1,5 @@
 projects[] = token
+projects[] = transliteration
 projects[] = ctools
 
 ; Configuration Management (CMI)
@@ -104,6 +105,10 @@ projects[] = filefield_sources
 projects[] = field_group
 projects[] = paragraphs
 
+; Field settings
+
+projects[] = field_permissions
+
 
 ; Blocks
 
@@ -133,6 +138,9 @@ projects[] = views_bulk_operations
 
 projects[] = webform
 projects[] = webform_hints
+projects[] = webform_phone
+projects[] = webform_rules
+
 
 ; Taxonomy
 
@@ -142,6 +150,7 @@ projects[] = taxonomy_display
 ; User
 
 projects[] = login_destination
+projects[] = role_delegation
 
 
 ; -----------------------------------
@@ -219,6 +228,7 @@ projects[] = module_filter
 
 ; Frontend Base Theme
 projects[] = aurora
+projects[] = basic
 
 ; Admin Theme
 projects[] = adminimal_theme
@@ -237,7 +247,6 @@ projects[] = typogrify
 
 projects[] = field_formatter_settings
 projects[] = linked_field
-;projects[] = image_link_formatter
 
 
 ; -----------------------------------
