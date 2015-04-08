@@ -1,6 +1,7 @@
 projects[] = token
 projects[] = transliteration
 projects[] = ctools
+projects[] = rules
 
 ; Configuration Management (CMI)
 
@@ -140,6 +141,7 @@ projects[] = webform
 projects[] = webform_hints
 projects[] = webform_phone
 projects[] = webform_rules
+projects[] = clientside_validation
 
 
 ; Taxonomy
@@ -149,8 +151,10 @@ projects[] = taxonomy_display
 
 ; User
 
-projects[] = login_destination
 projects[] = role_delegation
+projects[] = login_destination
+projects[] = logouttab
+projects[] = prlp
 
 
 ; -----------------------------------
@@ -217,6 +221,7 @@ projects[] = cacheflush
 
 ; Modules
 
+projects[] = tabtamer
 projects[] = module_filter
 
 
@@ -241,6 +246,10 @@ projects[] = fences
 projects[] = html5_tools
 projects[] = elements
 projects[] = typogrify
+
+; Performance
+
+projects[] = speedy
 
 
 ; Formatters
