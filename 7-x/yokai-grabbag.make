@@ -21,11 +21,6 @@
 ;projects[flag][subdir] = contrib
 
 
-; Rules
-
-;projects[rules][subdir] = contrib
-
-
 ; Migration
 
 ;projects[migrate][subdir] = contrib
