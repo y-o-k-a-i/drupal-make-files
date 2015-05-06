@@ -2,6 +2,7 @@ projects[] = token
 projects[] = transliteration
 projects[] = ctools
 projects[] = rules
+projects[] = drush_language
 
 ; Configuration Management (CMI)
 
