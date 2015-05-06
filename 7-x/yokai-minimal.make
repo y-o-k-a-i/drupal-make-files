@@ -247,10 +247,6 @@ projects[] = html5_tools
 projects[] = elements
 projects[] = typogrify
 
-; Performance
-
-projects[] = speedy
-
 
 ; Formatters
 
@@ -272,3 +268,23 @@ projects[] fastclick
 
 ; Help
 projects[] = advanced_help
+
+
+
+; -----------------------------------
+; Optimizations
+; -----------------------------------
+
+; Performance
+
+projects[speedy][subdir] = contrib
+
+projects[autocache][subdir] = contrib
+projects[entitycache][subdir] = contrib
+
+
+; SEO
+
+projects[customerror][subdir] = contrib
+projects[metatag][subdir] = contrib
+projects[page_title][subdir] = contrib
