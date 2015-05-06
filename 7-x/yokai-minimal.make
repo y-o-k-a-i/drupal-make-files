@@ -287,4 +287,3 @@ projects[entitycache][subdir] = contrib
 
 projects[customerror][subdir] = contrib
 projects[metatag][subdir] = contrib
-projects[page_title][subdir] = contrib
