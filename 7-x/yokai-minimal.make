@@ -15,28 +15,8 @@ projects[] = variable
 
 projects[] = libraries
 
-; Backbone
-libraries[backbone][directory_name] = "backbone"
-libraries[backbone][type] = "library"
-libraries[backbone][destination] = "libraries"
-libraries[backbone][download][type] = "get"
-libraries[backbone][download][url] = "https://github.com/documentcloud/backbone/archive/1.1.2.zip"
-
 ; Modernizr
 projects[] = modernizr
-
-libraries[modernizr][directory_name] = "modernizr"
-libraries[modernizr][type] = "library"
-libraries[modernizr][destination] = "libraries"
-libraries[modernizr][download][type] = "get"
-libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.8.3.zip"
-
-; Underscore
-libraries[underscore][directory_name] = "underscore"
-libraries[underscore][type] = "library"
-libraries[underscore][destination] = "libraries"
-libraries[underscore][download][type] = "get"
-libraries[underscore][download][url] = "https://github.com/documentcloud/underscore/archive/1.7.0.zip"
 
 ; Chosen
 projects[] = chosen
@@ -211,9 +191,9 @@ projects[] = view_unpublished
 
 ; Menu
 
-; projects[] = navbar
+projects[] = navbar
 ; @see https://www.drupal.org/node/2167993#comment-9046931
-projects[navbar][patch][] = "https://www.drupal.org/files/issues/navbar-2167993-12.patch"
+; projects[navbar][patch][] = "https://www.drupal.org/files/issues/navbar-2167993-12.patch"
 projects[] = escape_admin
 projects[] = masquerade
 projects[] = cacheflush
