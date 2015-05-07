@@ -15,21 +15,28 @@ projects[] = variable
 
 projects[] = libraries
 
-; Library: Modernizr
+; Backbone
+libraries[backbone][directory_name] = "backbone"
+libraries[backbone][type] = "library"
+libraries[backbone][destination] = "libraries"
+libraries[backbone][download][type] = "get"
+libraries[backbone][download][url] = "https://github.com/documentcloud/backbone/archive/1.1.2.zip"
+
+; Modernizr
 projects[] = modernizr
-libraries[modernizr][download][type] = git
-libraries[modernizr][download][url] = https://github.com/BrianGilbert/modernizer-navbar.git
-libraries[modernizr][download][revision] = 5b89d9225320e88588f1cdc43b8b1e373fa4c60f
 
-; Library: Backbone
-libraries[backbone][download][type] = git
-libraries[backbone][download][url] = https://github.com/jashkenas/backbone.git
-libraries[backbone][download][tag] = 1.0.0
+libraries[modernizr][directory_name] = "modernizr"
+libraries[modernizr][type] = "library"
+libraries[modernizr][destination] = "libraries"
+libraries[modernizr][download][type] = "get"
+libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.8.3.zip"
 
-; Library: Underscore
-libraries[underscore][download][type] = git
-libraries[underscore][download][url] = https://github.com/jashkenas/underscore.git
-libraries[underscore][download][tag] = 1.5.0
+; Underscore
+libraries[underscore][directory_name] = "underscore"
+libraries[underscore][type] = "library"
+libraries[underscore][destination] = "libraries"
+libraries[underscore][download][type] = "get"
+libraries[underscore][download][url] = "https://github.com/documentcloud/underscore/archive/1.7.0.zip"
 
 ; Chosen
 projects[] = chosen
