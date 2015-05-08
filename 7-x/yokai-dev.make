@@ -7,7 +7,7 @@ core = 7.x
 
 projects[devel][subdir] = contrib
 projects[module_builder][subdir] = contrib
-projects[coder][subdir] = contrib
+;projects[coder][subdir] = contrib
 
 projects[devel_themer][subdir] = contrib
 projects[search_krumo][subdir] = contrib
