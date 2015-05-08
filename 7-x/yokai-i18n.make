@@ -1,3 +1,6 @@
+api = 2
+core = 7.x
+
 ; -----------------------------------
 ; Multilanguage
 ; -----------------------------------
@@ -8,7 +11,6 @@ projects[drush_language][subdir] = contrib
 ; Multilanguage Suite
 projects[i18n][subdir] = contrib
 projects[i18nviews][subdir] = contrib
-
 projects[l10n_update][subdir] = contrib
 
 
