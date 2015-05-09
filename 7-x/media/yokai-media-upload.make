@@ -6,3 +6,4 @@ core = 7.x
 ; -----------------------------------
 
 projects[plupload][subdir] = contrib
+projects[filefield_sources_plupload][subdir] = contrib
