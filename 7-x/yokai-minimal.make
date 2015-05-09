@@ -217,6 +217,7 @@ projects[] = basic
 
 ; Admin Theme
 projects[] = adminimal_theme
+projects[] = shiny
 
 ; Better Markup
 
