@@ -7,6 +7,7 @@ core = 7.x
 
 ; Multilanguage Tools
 projects[drush_language][subdir] = contrib
+projects[lingotek][subdir] = contrib
 ;projects[] = tmgmt ; Translation Management Tool
 
 ; Multilanguage Suite / complete translation approach
