@@ -55,7 +55,7 @@ projects[] = rabbit_hole
 projects[] = menu_position
 projects[] = menu_block
 projects[] = menu_attributes
-projects[] = simplified_menu_admin
+projects[] = content_menu
 
 
 ; Entities
