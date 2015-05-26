@@ -13,4 +13,4 @@ libraries[flexslider][destination] = "libraries"
 libraries[flexslider][download][type] = "get"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
 
-projects[flexslider][subdir] = flexslider_entityreference
+projects[flexslider_entityreference][subdir] = contrib
