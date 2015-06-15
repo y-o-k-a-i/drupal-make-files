@@ -19,6 +19,9 @@ projects[browsersync][subdir] = contrib
 ; -----------------------------------
 
 projects[bulk_export][subdir] = contrib
-projects[field_tools][subdir] = contrib
+
+projects[bundle_copy][subdir] = contrib
+projects[field_tools-7.x-1.x-dev][subdir] = contrib
 projects[node_convert][subdir] = contrib
+
 projects[stage_file_proxy][subdir] = contrib
