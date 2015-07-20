@@ -137,6 +137,7 @@ projects[] = logouttab
 projects[] = prlp
 projects[] = administerusersbyrole
 projects[] = email_registration
+projects[] = mailcontrol
 
 ; -----------------------------------
 ; Content Creation
