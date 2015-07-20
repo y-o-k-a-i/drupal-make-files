@@ -135,7 +135,8 @@ projects[] = role_delegation
 projects[] = login_destination
 projects[] = logouttab
 projects[] = prlp
-
+projects[] = administerusersbyrole
+projects[] = email_registration
 
 ; -----------------------------------
 ; Content Creation
