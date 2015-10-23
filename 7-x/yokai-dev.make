@@ -13,6 +13,7 @@ projects[devel_themer][subdir] = contrib
 projects[search_krumo][subdir] = contrib
 projects[browsersync][subdir] = contrib
 
+;projects[generate_errors][subdir] = contrib
 
 ; -----------------------------------
 ; Site Building
