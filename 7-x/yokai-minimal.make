@@ -219,13 +219,14 @@ projects[] = basic
 
 ; Admin Theme
 projects[] = adminimal_theme
-projects[] = shiny
+;projects[] = shiny
 
 ; Better Markup
 
 projects[] = borealis
 projects[] = magic
 projects[] = fences
+projects[] = clean_markup
 projects[] = html5_tools
 projects[] = elements
 projects[] = typogrify
