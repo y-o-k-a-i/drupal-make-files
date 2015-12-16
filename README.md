@@ -8,13 +8,6 @@ Verify `.make` files with `drush verify-makefile`. See [Drupal.org](https://www.
 
 How patches get handled. It uses [Dave Reid's](https://github.com/davereid) Project [Drush Patch File](https://github.com/davereid/drush-patchfile). To apply the patches download or git clone the repository into your `~/.drush` directory, or wherever your local Drush commands are stored. Check out the installation [here](https://bitbucket.org/davereid/drush-patchfile/overview#markdown-header-installation).
 
-
-Drupal 8 Standard
------------------
-```
-$ wget https://raw.githubusercontent.com/y-o-k-a-i/drupal-make-files/master/8-x/yokai-standard.make
-$ drush make yokai-standard.make -y
-```
 Drupal 7 Standard
 -----------------
 ```
