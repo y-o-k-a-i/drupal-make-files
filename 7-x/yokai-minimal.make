@@ -178,6 +178,7 @@ projects[] = quickedit_tab
 
 projects[] = linkit
 projects[] = entityreference_view_widget
+projects[] = entityconnect
 
 ; -----------------------------------
 ; Content Administration
