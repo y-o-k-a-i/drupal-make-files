@@ -216,7 +216,11 @@ projects[] = module_filter
 
 ; Frontend Base Theme
 projects[] = aurora
-projects[] = basic
+; projects[] = basic
+
+; worth a try, looks promising
+; https://github.com/ablank/Cellular
+; https://github.com/ablank/cellular.library
 
 ; Admin Theme
 projects[] = adminimal_theme
