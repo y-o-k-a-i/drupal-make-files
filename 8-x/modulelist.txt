@@ -6,6 +6,7 @@ paragraphs
 ds
 layout_plugin
 rdfui
+contact_block
 
 # themes / theming
 https://github.com/zetagraph/monoset
