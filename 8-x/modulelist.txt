@@ -9,7 +9,6 @@ rdfui
 contact_block
 
 # themes / theming
-https://github.com/zetagraph/monoset
 link_css
 
 # development
@@ -19,3 +18,6 @@ devel (en kint)
 focal_point
 
 # audit
+
+# performance
+big_pipe
