@@ -21,3 +21,12 @@ focal_point
 
 # performance
 big_pipe
+
+
+
+#might be useful
+contact_storage
+smart_trim
+https://github.com/md-systems/redirect
+pathauto
+metatag
