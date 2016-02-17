@@ -1,3 +1,7 @@
+####################
+# already in use
+####################
+
 # admin
 admin_toolbar
 
@@ -14,20 +18,30 @@ link_css
 # development
 devel (en kint)
 
+
+####################
+# port being done
+####################
+token --> https://www.drupal.org/node/2578451
+redirect --> https://github.com/md-systems/redirect
+pathauto --> https://www.drupal.org/node/2573683
+auto_nodetitle --> https://www.drupal.org/node/2608660
+metatag --> https://www.drupal.org/node/2574755
+
+
+####################
+# might be useful
+####################
+
+# theming
+smart_trim
+
 # extra
 focal_point
+contact_storage
+yamlform
 
 # audit
 
 # performance
 big_pipe
-
-
-
-#might be useful
-contact_storage
-smart_trim
-https://github.com/md-systems/redirect
-pathauto
-metatag
-yamlform
