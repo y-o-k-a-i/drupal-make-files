@@ -30,3 +30,4 @@ smart_trim
 https://github.com/md-systems/redirect
 pathauto
 metatag
+yamlform
