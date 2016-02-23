@@ -11,6 +11,7 @@ ds
 layout_plugin
 rdfui
 contact_block
+linkit
 
 # themes / theming
 smart_trim
