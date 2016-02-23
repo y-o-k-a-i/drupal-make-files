@@ -12,6 +12,7 @@ layout_plugin
 rdfui
 contact_block
 linkit
+block_visibility_groups
 
 # themes / theming
 smart_trim
