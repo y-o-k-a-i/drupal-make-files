@@ -13,6 +13,7 @@ rdfui
 contact_block
 linkit
 block_visibility_groups
+viewfield --> https://github.com/derhasi/viewfield
 
 # themes / theming
 smart_trim
