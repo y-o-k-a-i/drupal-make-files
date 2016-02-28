@@ -40,6 +40,9 @@ metatag --> https://www.drupal.org/node/2574755
 
 # theming
 
+# search
+search_api
+search_api_page
 
 # extra
 focal_point
