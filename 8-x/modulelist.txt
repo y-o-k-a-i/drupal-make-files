@@ -16,7 +16,6 @@ block_visibility_groups
 viewfield --> https://github.com/derhasi/viewfield
 
 # themes / theming
-smart_trim
 link_css
 block_class --> https://www.drupal.org/node/2198023
 
@@ -40,12 +39,13 @@ metatag --> https://www.drupal.org/node/2574755
 
 menu_position --> https://www.drupal.org/node/2601754
 
-
 ####################
 # might be useful
 ####################
 
 # theming
+fences --> https://www.drupal.org/node/2422029
+smart_trim
 
 # search
 search_api
