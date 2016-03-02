@@ -29,7 +29,7 @@ devel (en kint)
 token --> https://www.drupal.org/node/2578451
 redirect --> https://github.com/md-systems/redirect
 pathauto --> https://www.drupal.org/node/2573683
-auto_nodetitle --> https://www.drupal.org/node/2608660
+auto_entitylabel --> https://www.drupal.org/node/2613810
 metatag --> https://www.drupal.org/node/2574755
 
 
