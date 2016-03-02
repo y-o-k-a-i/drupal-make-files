@@ -54,13 +54,16 @@ fences --> https://www.drupal.org/node/2422029
 search_api
 search_api_page
 
-# extra
-focal_point
-contact_storage
-yamlform
+#content / workflow
 replicate
+cps
 
 # audit
 
 # performance
 big_pipe
+
+# extra
+focal_point
+contact_storage
+yamlform
