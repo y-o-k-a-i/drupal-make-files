@@ -43,9 +43,12 @@ menu_position --> https://www.drupal.org/node/2601754
 # might be useful
 ####################
 
+# site building
+cer --> https://www.drupal.org/node/2679090
+
 # theming
 fences --> https://www.drupal.org/node/2422029
-smart_trim
+(smart_trim) // not so smart yet
 
 # search
 search_api
