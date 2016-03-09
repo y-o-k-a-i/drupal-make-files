@@ -32,6 +32,7 @@ pathauto --> https://www.drupal.org/node/2573683
 auto_entitylabel --> https://www.drupal.org/node/2613810
 metatag --> https://www.drupal.org/node/2574755
 rabbit_hole --> https://www.drupal.org/node/2623120
+entityconnect --> https://www.drupal.org/node/2606708
 
 #####################################
 # port not yet started but needed
