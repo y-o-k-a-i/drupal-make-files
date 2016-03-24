@@ -72,7 +72,6 @@ stage_file_proxy
 big_pipe
 
 # extra
-focal_point
 contact_storage
 yamlform
 
@@ -81,6 +80,7 @@ payment_datatrans
 
 #media modules
 media_entity
-entity_browser
-dropzonejs
-image_widget_crop
+  entity_browser
+  dropzonejs
+  image_widget_crop
+focal_point
