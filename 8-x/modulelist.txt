@@ -12,10 +12,10 @@ layout_plugin
 rdfui
 contact_block
 linkit
-block_visibility_groups
 viewfield --> https://github.com/derhasi/viewfield
-taxonomy_menu
 field_group
+taxonomy_menu
+block_visibility_groups
 
 # themes / theming
 link_css
@@ -49,6 +49,7 @@ menu_position --> https://www.drupal.org/node/2601754
 
 # site building
 cer --> https://www.drupal.org/node/2679090
+dynamic_entity_reference
 
 # theming
 fences --> https://www.drupal.org/node/2422029
