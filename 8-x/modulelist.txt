@@ -62,6 +62,7 @@ search_api_page
 replicate
 cps
 workbench_moderation
+better_formats
 
 # audit
 
