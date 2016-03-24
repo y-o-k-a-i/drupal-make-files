@@ -74,3 +74,6 @@ big_pipe
 focal_point
 contact_storage
 yamlform
+
+#shop
+payment_datatrans
