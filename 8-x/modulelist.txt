@@ -78,3 +78,9 @@ yamlform
 
 #shop
 payment_datatrans
+
+#media modules
+media_entity
+entity_browser
+dropzonejs
+image_widget_crop
