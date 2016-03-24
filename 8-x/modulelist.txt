@@ -64,6 +64,7 @@ replicate
 cps
 workbench_moderation
 better_formats
+stage_file_proxy
 
 # audit
 
