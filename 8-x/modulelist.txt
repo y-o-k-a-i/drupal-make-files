@@ -61,6 +61,7 @@ search_api_page
 #content / workflow
 replicate
 cps
+workbench_moderation
 
 # audit
 
