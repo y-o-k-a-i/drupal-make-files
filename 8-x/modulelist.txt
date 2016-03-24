@@ -79,8 +79,13 @@ yamlform
 payment_datatrans
 
 #media modules
+file_entity
+image_widget_crop
+entity_embed
+entity_browser
+dropzonejs
+
 media_entity
-  entity_browser
-  dropzonejs
-  image_widget_crop
+  media_entity_image
+  
 focal_point
