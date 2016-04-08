@@ -70,6 +70,8 @@ stage_file_proxy
 
 # performance
 big_pipe
+pwa
+refreshless
 
 # extra
 contact_storage
