@@ -15,7 +15,8 @@ linkit
 viewfield --> https://github.com/derhasi/viewfield
 field_group
 taxonomy_menu
-block_visibility_groups
+taxonomy_access_fix
+
 
 # themes / theming
 link_css
@@ -50,6 +51,7 @@ menu_position --> https://www.drupal.org/node/2601754
 # site building
 cer --> https://www.drupal.org/node/2679090
 dynamic_entity_reference
+block_visibility_groups
 
 # theming
 fences --> https://www.drupal.org/node/2422029
