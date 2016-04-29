@@ -83,6 +83,8 @@ yamlform
 payment_datatrans
 
 #media modules
+video_embed_field
+
 file_entity
 image_widget_crop
 entity_embed
