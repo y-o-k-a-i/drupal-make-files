@@ -11,6 +11,7 @@ ds
 layout_plugin
 rdfui
 contact_block
+contact_storage
 linkit
 viewfield --> https://github.com/derhasi/viewfield
 field_group
@@ -76,7 +77,6 @@ pwa
 refreshless
 
 # extra
-contact_storage
 yamlform
 
 #shop
