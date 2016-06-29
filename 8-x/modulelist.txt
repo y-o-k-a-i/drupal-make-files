@@ -13,6 +13,7 @@ rdfui
 contact_block
 contact_storage
 recaptcha
+double_field
 linkit
 viewfield --> https://github.com/derhasi/viewfield
 field_group
