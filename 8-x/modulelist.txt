@@ -23,6 +23,7 @@ taxonomy_access_fix
 
 # themes / theming
 link_css
+flickity
 block_class --> https://www.drupal.org/node/2198023
 
 # development
