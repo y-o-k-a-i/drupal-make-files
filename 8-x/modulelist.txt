@@ -23,7 +23,7 @@ taxonomy_access_fix
 
 # themes / theming
 link_css
-flickity
+(flickity) // not used so far, directly integrated flickety through the theme
 block_class --> https://www.drupal.org/node/2198023
 
 # development
@@ -68,6 +68,7 @@ search_api_page
 #content / workflow
 replicate
 cps
+view_modes_display
 workbench_moderation
 better_formats
 stage_file_proxy
