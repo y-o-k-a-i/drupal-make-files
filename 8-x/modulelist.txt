@@ -19,6 +19,7 @@ viewfield --> https://github.com/derhasi/viewfield
 field_group
 taxonomy_menu
 taxonomy_access_fix
+fico --> former ffc (field formatter conditions)
 
 
 # themes / theming
