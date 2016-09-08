@@ -2,6 +2,10 @@
 # already in use
 ####################
 
+# base
+token (former https://www.drupal.org/node/2578451)
+pathauto (former https://www.drupal.org/node/2573683)
+
 # admin
 admin_toolbar
 
@@ -21,7 +25,6 @@ field_group
 taxonomy_menu
 taxonomy_access_fix
 
-
 # themes / theming
 link_css
 (flickity) // not used so far, directly integrated flickety through the theme
@@ -34,18 +37,11 @@ devel (en kint)
 ####################
 # port being done
 ####################
-token --> https://www.drupal.org/node/2578451
 redirect --> https://github.com/md-systems/redirect
-pathauto --> https://www.drupal.org/node/2573683
 auto_entitylabel --> https://www.drupal.org/node/2613810
 metatag --> https://www.drupal.org/node/2574755
 rabbit_hole --> https://www.drupal.org/node/2623120
 entityconnect --> https://www.drupal.org/node/2606708
-
-#####################################
-# port not yet started but needed
-#####################################
-
 menu_position --> https://www.drupal.org/node/2601754
 
 
