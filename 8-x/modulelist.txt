@@ -24,10 +24,11 @@ tvi
 field_group
 taxonomy_menu
 taxonomy_access_fix
+(tablefield)
 
 # themes / theming
 link_css
-(flickity) // not used so far, directly integrated flickety through the theme
+(flickity) // not used so far, directly integrated flickity through the theme
 block_class --> https://www.drupal.org/node/2198023
 
 # development
