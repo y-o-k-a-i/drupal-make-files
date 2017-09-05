@@ -76,6 +76,7 @@ stage_file_proxy
 # performance
 big_pipe
 advagg
+http2_server_push
 pwa
 refreshless
 
