@@ -31,6 +31,11 @@ link_css
 (flickity) // not used so far, directly integrated flickity through the theme
 block_class --> https://www.drupal.org/node/2198023
 
+# performance
+big_pipe
+advagg
+http2_server_push
+
 # development
 devel (en kint)
 
@@ -74,9 +79,6 @@ stage_file_proxy
 # audit
 
 # performance
-big_pipe
-advagg
-http2_server_push
 pwa
 refreshless
 
