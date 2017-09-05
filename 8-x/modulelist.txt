@@ -28,7 +28,6 @@ taxonomy_access_fix
 
 # themes / theming
 link_css
-(flickity) // not used so far, directly integrated flickity through the theme
 block_class --> https://www.drupal.org/node/2198023
 
 # performance
@@ -62,7 +61,12 @@ block_visibility_groups
 
 # theming
 fences --> https://www.drupal.org/node/2422029
+flickity // not used so far, directly integrated flickity through the theme
+slick (other slider option instead of flickity)
+mason (masonry layout)
+
 (smart_trim) // not so smart yet
+
 
 # search
 search_api
